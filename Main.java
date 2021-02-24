@@ -10,7 +10,6 @@ public class Main
       JFrame frame1 = new JFrame("Dr. Doofenshmirtz' -inators");
       frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       frame1.setSize(500,500);
-      frame1.setVisible(true);
 
       //----------------Panel to hold the buttons-------------------
       JPanel panel1 = new JPanel(new GridLayout(2,2, 20,20));
@@ -61,6 +60,6 @@ public class Main
 
       frame1.getContentPane().add(BorderLayout.NORTH, panel1);
       frame1.getContentPane().add(BorderLayout.CENTER, panel2);
-      
+      frame1.setVisible(true);
   }//end main method
 }//end class Main
